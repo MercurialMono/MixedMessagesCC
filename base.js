@@ -1,17 +1,17 @@
-const firstLine = ['I believe in one thing', ];
-const secondLine = ['and one thing only', ];
-const thirdLine = ['the power of human will', ];
+const firstLine = ['I believe in one thing', 'All that glitters', 'A stopped clock',  ];
+const secondLine = ['and one thing only', 'is not', 'is right', ];
+const thirdLine = ['the power of human will.', 'gold.', 'twice a day.', ];
 
 const randomFirst = (arr) => {
-    ['All that glitters', 'A stopped clock']
+
 }
 
 const randomSecond = (arr) => {
-    ['is not', 'is right', ]
+    
 }
 
 const randomThird = (arr) => {
-    ['gold.', 'twice a day.']
+    
 }
 
 console.log(randomFirst() + ' ' + randomSecond() + ' ' + randomThird());
