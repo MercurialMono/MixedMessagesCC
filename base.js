@@ -2,16 +2,19 @@ const firstLine = ['I believe in one thing', 'All that glitters', 'A stopped clo
 const secondLine = ['and one thing only', 'is not', 'is right', ];
 const thirdLine = ['the power of human will.', 'gold.', 'twice a day.', ];
 
-const randomFirst = (arr) => {
-
+function randomFirst(arr) {
+    const first = arr[Math.floor(Math.random() * arr.length)];
+    return first;
 }
 
-const randomSecond = (arr) => {
-    
+function randomSecond(arr) {
+    const second = arr[Math.floor(Math.random() * (arr.length - 1))];
+    return second;
 }
 
-const randomThird = (arr) => {
-    
+function randomThird(arr) {
+    const third = arr[Math.floor(Math.random() * (arr.length - 1))];
+    return third;
 }
 
-console.log(randomFirst() + ' ' + randomSecond() + ' ' + randomThird());
+console.log(randomFirst(firstLine) + ' ' + randomSecond(secondLine) + ' ' + randomThird(thirdLine));
